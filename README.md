@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/50-grupe-labirintas/
+Site published at: https://github.com/kestgrig/labirintas
 
 Design: [Labirintas](https://dribbble.com/shots/2537184-Day-008-404-Page-Daily-UI)
 
@@ -46,7 +46,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/front-end-by-rimantas/50-grupe-labirintas.git
+    git clone https://github.com/kestgrig/labirintas.git
     ```
 2. Install NPM packages
     ```sh
@@ -67,7 +67,7 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Rimantas: [Github](https://github.com/kestgrig)
 
 ## ⚠️ License
 
