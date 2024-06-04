@@ -7,17 +7,17 @@
     <title>Document</title>
 </head>
 
-<body>
-    <div style="background-color: rgb(220, 189, 140); width: 100%;">
-        <div>x</div>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <div style="width: 100%; display: inline-block;">
+        <img style="height: 30px; float: right; margin: 30px;" src="./img/cross.png" alt="">
     </div>
 
-    <div style="width: 100%; background-color: lightblue; ">
-        <img style="width: 20%; background-color: antiquewhite; display: inline-block;" src="./img/labirintas.png" alt="">
-        <div style="background-color: yellowgreen; width: 30%; display: inline-block;">
-            <h1>404</h1>
-            <p> Looks like you are in a maze.</p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsam libero velit praesentium nemo beatae?</p>
+    <div style="display: inline-block; margin-left: 27%; width: 46%; margin-top: 100px;">
+        <img style="width: 40%; float: left;" src="./img/labirintas.png" alt="">
+        <div style="width: 50%; float: left; margin-left: 10%; ">
+            <h1 style="font-size: 170px; margin: 0; color: green;">404</h1>
+            <p style="font-size: 24px; line-height: 1.2em; color: green;"> Looks like you are in a maze.</p>
+            <p style="font-size: 22px; line-height: 1.2em;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsam libero velit praesentium nemo beatae?</p>
         </div>
     </div>
 </body>
@@ -25,6 +25,10 @@
 </html>
 
 <!-- 
+
+px - (absoliutus) primityviausias
+% - reliatyvus
+em - proporcingas to paties elemento font-size
 
 background-color: red;
 color: black;
@@ -45,4 +49,31 @@ display: inline;            // elgiasi kaip tekstas
 display: none;              // elementas nerodomas
 display: inline-block;      // mix tarp block ir inline
 
+float: left       // priverstinis elemento statymas horizontaliai
+float: right
+
+
+margin: 0;    // atstumas iki aplinkiniu elementu visomis kryptimis
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+
 -->
+
+<!-- <body>
+    <div style="background-color: rgb(220, 189, 140); width: 100%;">
+        <div>x</div>
+    </div>
+
+    <div style="width: 100%; background-color: lightblue; display: inline-block;">
+        <img style="width: 20%; background-color: antiquewhite; margin-left: 20%; float: left;" src="./img/labirintas.png" alt="">
+        <div style="background-color: yellowgreen; width: 30%; float: left; margin-left: 10%">
+            <h1>404</h1>
+            <p> Looks like you are in a maze.</p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsam libero velit praesentium nemo beatae?</p>
+        </div>
+    </div>
+</body>
+
+</html> -->
